@@ -1,0 +1,32 @@
+[Trecho: Dom Casmurro - Machado de Assis]
+
+Uma noite destas, vindo da cidade para o Engenho Novo, encontrei no trem da Central um rapaz aqui do bairro, que eu conheço de vista e de chapéu. Cumprimentou-me, sentou-se ao pé de mim, falou da Lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.
+
+— Continue, disse eu acordando.
+— Já acabei, murmurou ele.
+— São muito bonitos.
+
+Vi-lhe fazer um gesto para tirá-los outra vez do bolso, mas não passou do gesto; estava amuado. No dia seguinte entrou a dizer de mim nomes feios, e acabou alcunhando-me Dom Casmurro.
+
+================================================================================
+[Análise de Degradação de Tempo - Pior Caso Matemático]
+
+Para evidenciar na prática a ineficiência do algoritmo *Naive* (Força Bruta O(n * m)), e maravilhar-se com a linearidade irrefutável do *KMP O(n)*, tente buscar a string exata abaixo:
+Busque pela chave (Pattern): 
+AAAAAAAB
+
+Lendo o texto abaixo contendo inúmeros "As" falsos, o algoritmo Naive vai sempre comparar 7 caracteres corretos e falhar no 8º ("B"), voltando a ponteiro lá para o começo e fazendo TUDO de novo. Já o KMP avança sem pestanejar.
+
+Texto para teste (copie ou leia direto daqui):
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB
+
+================================================================================
+
+[Teste de Falsos Positivos do Hash / Múltiplas Ocorrências do Rabin-Karp]
+Busque pela chave: 
+ababab
+
+Texto:
+ababababababababababababababababababcdababababababababababababab
+
+(Use este último exemplo no modo "Passo a Passo" selecionando Rabin-Karp e repare bem nos números saltando no cálculo dos Hashes do Texto e da Chave, localizando todas as variantes em tempo real).

@@ -1,0 +1,25 @@
+Alice no País das Maravilhas (Trecho Exemplo)
+
+Alice estava começando a ficar muito cansada de estar sentada ao lado de sua irmã no barranco, e de não ter nada para fazer: uma ou duas vezes ela havia espiado o livro que sua irmã estava lendo, mas não tinha figuras nem diálogos, "e de que serve um livro", pensou Alice, "sem figuras nem diálogos?"
+
+Então ela estava considerando em sua própria mente (da melhor forma que podia, pois o dia quente a deixava com muito sono e estúpida), se o prazer de fazer uma guirlanda de margaridas valeria o trabalho de se levantar e colher as margaridas, quando de repente um Coelho Branco de olhos rosados passou correndo perto dela.
+
+Não havia nada de muito notável naquilo; nem Alice achou muito fora do normal ouvir o Coelho dizer para si mesmo: "Ai, ai! Ai, ai! Eu vou chegar atrasado!" (quando ela pensou nisso depois, ocorreu-lhe que ela deveria ter se admirado com isso, mas na hora tudo parecia bastante natural).
+
+============================================================
+[Sequência Genética para teste de estresse do KMP]
+Busque por: "CTAGCTAGC"
+GTTATAGCTGATCGCGGCGATAGCTAGCTAGCTGCTAGCTAGCTACGATCGATCGATCGCGATCGTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGTAGTCGATCGTAGCTAGCTAGC
+GATCGCGATCGTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGTAGTCGATCGTAGCTAGCTAGCGTTATAGCTGATCGCGGCGATAGCTAGCTAGCTGCTAGCTAGCTACGATCGATCGA
+============================================================
+
+[Padrões Longos para Rabin-Karp e Força Bruta (Comparativos de Hash)]
+Busque por: "consectetur adipiscing"
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+============================================================
+[Teste do Boyer Moore - Heurística do Character Ruim (Saltos longos)]
+Busque por: "abracadabra"
+Texto com muitos caracteres não correspondentes antes do match:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxabracadabrayyyyyyyyyyyyyyyyyyyyyyyyyabracadabra
